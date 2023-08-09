@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.container1 {
+  height: 200rem;
+  width: 150rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.select {
+  height: 6rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1.6;
+  color: #333;
+  border-radius: 9px;
+  padding: 1rem;
+}
+
+.select-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.1rem;
+}
+
+input {
+  height: 4rem;
+  width: 100%;
+  border-radius: 9px;
+  border: 0.5px solid #333;
+  text-align: center;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.inputs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 9px;
+}
+
+.labels-flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+

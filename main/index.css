@@ -1,0 +1,662 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Naser-logo {
+  display: flex;
+  width: 100%;
+  height: 9rem;
+  padding: 4rem;
+  background-color: #0c1d36;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Naser-logos {
+  width: 10rem;
+  height: auto;
+}
+
+.Naser-how {
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f9cc0b;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.Naser-Powered {
+  display: flex;
+  flex-direction: column;
+  color: #ffff;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  position: fixed;
+  width: 100%;
+
+  z-index: 9999;
+}
+/**/
+
+.header-powered {
+  letter-spacing: 1rem;
+}
+
+main {
+  background-image: url(/imges/matthew-kwong-XVhgrKy8C4g-unsplash.jpg);
+  margin-top: 10rem;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.testiomaial-text {
+  color: #ffff;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translate(+10%, 50%);
+}
+
+.testiomaial-text-header {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.testiomaial-text-headerp {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+
+strong {
+  color: #f9cc0b;
+}
+
+.trad-in {
+  padding: 2rem 2rem;
+  border-radius: 9px;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f9cc0b;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 5rem;
+}
+
+/* ends here */
+
+.trad-in {
+  padding: 2rem 2rem;
+  border-radius: 9px;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f9cc0b;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 5rem;
+}
+
+.how-works::before {
+  content: "";
+  position: absolute;
+  top: 60;
+  left: 45%;
+  z-index: -1;
+  width: 10%;
+  padding-bottom: 2%;
+  display: block;
+  background-color: #f9cc0b;
+}
+
+.how-works {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  width: 5%;
+}
+
+.flex-second {
+  display: flex;
+  width: 50rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 5px -1px 21px -13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px -1px 21px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px -1px 21px -13px rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid #f9cc0b;
+  cursor: pointer;
+  color: #333;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
+.flex-second p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.parent-flex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 6rem;
+}
+
+.parent-flex2 p {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+/* ends here  */
+
+.parent-flex2 {
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+.step-one {
+  width: 1rem;
+  height: 1rem;
+  background-color: #f9cc0b;
+  border-radius: 50%;
+  display: flex;
+
+  justify-content: center;
+}
+
+.step-tow {
+  width: 30rem;
+  height: 5px;
+  background-color: gray;
+
+  border-radius: 1px;
+}
+
+.step-tow2 {
+  width: 40rem;
+  height: 5px;
+  background-color: gray;
+
+  border-radius: 1px;
+}
+
+/* ends here */
+
+.selection-methods {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: start;
+  align-items: center;
+
+  padding: 4rem;
+}
+
+.selection-methods-child {
+  display: flex;
+
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.logos {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+/* ends here  */
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  width: 70rem;
+  padding: 4rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20rem;
+  height: 10rem;
+  position: relative;
+  cursor: pointer;
+  border-radius: 9px;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.buttons:hover {
+  border: 1px solid #1c7ed6;
+}
+
+.iphone-14 {
+  display: flex;
+  gap: 1rem;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+.iphone14-pluse {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.iphone14-pro {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.iPhoneSE {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.iphone-room {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 10rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #333;
+  border-radius: 9px;
+
+  border: 1px solid #333;
+}
+
+.iphone-room:hover {
+  border: 1px solid #1c7ed6;
+}
+
+.h1-center {
+  margin-bottom: 4rem;
+  padding: 2rem;
+}
+
+.apple {
+  display: inline-block;
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid #333;
+  border-radius: 9px;
+  margin-left: 4rem;
+  background-color: #ffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.apple:hover {
+  border: 1px solid #1c7ed6;
+}
+
+.apple::after {
+  content: "Apple";
+  position: absolute;
+  width: 15rem;
+  top: 1rem;
+  right: -5rem;
+  background-color: #f9cc0b;
+  transform: rotate(40deg);
+}
+.list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.list li {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.expand {
+  max-height: 200px; /* Adjust the value to fit your content */
+}
+
+.expand li {
+  opacity: 1;
+}
+
+li {
+  border-bottom: 2px solid gray;
+}
+
+ul {
+  padding: 1.5rem;
+}
+
+.parent .grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.iphone-details {
+  display: flex;
+  gap: 2rem;
+  justify-self: center;
+
+  padding: 1rem;
+  height: 6rem;
+  width: 70rem;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 9px;
+  border: 2px solid gray;
+  background-color: #0c1d36;
+  color: #fff;
+}
+
+.list li {
+  margin: 1rem;
+}
+
+.iphone-details-parent {
+  border-radius: 9px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+
+  color: #333;
+}
+
+.main-of-functionalty {
+  display: flex;
+  position: relative;
+}
+
+.side-bar {
+  margin-left: auto;
+  width: 40%;
+ 
+}
+
+.iphone-details-parents {
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone-details-ofSidebar {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 1rem;
+  height: 4rem;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #ced4da;
+  color: #333;
+}
+
+.icons {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icons:hover {
+  stroke: #1c7ed6;
+}
+
+.list1 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.list1 li {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.expand {
+  max-height: 200px; /* Adjust the value to fit your content */
+}
+
+.expand li {
+  opacity: 1;
+}
+
+.list1 li {
+  font-size: 1.5rem;
+  margin: 1rem 1rem;
+  border: none;
+  line-height: 1.5;
+}
+
+.side-bar-left {
+  width: 50%;
+  margin-right: auto;
+}
+
+.imge-iphone {
+  width: 50%;
+  height: auto;
+}
+
+.questions {
+  position: absolute;
+  top: 40%;
+  left: 4%;
+
+  margin-right: auto;
+}
+
+.questions p {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 700 !important;
+}
+
+.questions h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.questions a {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: #1c7ed6;
+  border-bottom: 1px solid #d0ebff;
+  font-weight: 700;
+}
+
+.questions button {
+  width: 20rem;
+  height: 7rem;
+  border-radius: 9px;
+  border: none;
+  background-color: #f9cc0b;
+  font-size: 2rem;
+  color: #333;
+}
+
+.footer-fot {
+  display: flex;
+
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 20rem;
+  padding: 3rem;
+  margin-top: 30rem;
+  background-color: #0c1d36;
+  color: #fff;
+}
+
+.footer-imgLogo {
+  width: 20rem;
+  height: auto;
+}
+
+.contact-Infor {
+  display: flex;
+  width: 100%;
+  height: 10rem;
+  align-items: center;
+  padding-left: 9rem;
+  gap: 3rem;
+  background-color: #3d4a5e;
+}
+
+.contact-Infor a {
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.footer-imgLogos {
+  width: 3rem;
+  height: auto;
+  filter: brightness(100%) invert(100%);
+  opacity: 100%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 5rem;
+  padding-bottom: 3rem;
+  padding-left: 8rem;
+
+  background-color: #0c1d36;
+}
+
+.loading {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border-radius: 50%;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  animation: spin 1s linear forwards;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.parent-of-imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+  position: fixed;
+  bottom: -5rem; /* Adjust the top position as desired */
+  left: 0; /* Adjust the left position as desired */
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 5rem;
+  gap: 2rem;
+  z-index: 9999;
+  box-shadow: 1px -37px 51px -52px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -37px 51px -52px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -37px 51px -52px rgba(0, 0, 0, 0.75);
+}
+
+.ihpne-img14 {
+  width: 10rem;
+  height: auto;
+}
+
+.button-iphone14 {
+  background-color: #f9cc0b;
+  padding: 2rem 3rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius: 9px;
+  color: #333;
+  font-weight: 700;
+}
+
+.content-iphone14 {
+  font-size: 2rem;
+}
+
+.iphone14-icon {
+  width: 4rem;
+  height: auto;
+}
+
+.iphone14-img-button {
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  border-radius: 9px;
+  border: none;
+}
+
+
+span {
+  color: #d0ebff;
+  font-size: 2rem;
+}
+
+
+.old-device{
+  font-size: 4rem;
+  margin-right: auto;
+  color: #333;
+  margin-left: 15rem;
+}
+
+
+p {
+  user-select: none;
+}
+
+
+
+
+
+
